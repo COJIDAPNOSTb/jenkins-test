@@ -12,10 +12,10 @@ public class CalculatorTest {
         assertEquals(3,result);
     }
     @Test
-    public void failedTest()
+    public void goodTest()
     {
-        int result = calculator.add(1,2);
-        assertEquals(0,result);
+       int result = calculator.minus(5,1);
+       assertEquals(4,result);
     }
 
 }
