@@ -17,11 +17,5 @@ public class CalculatorTest {
        int result = calculator.minus(5,1);
        assertEquals(4,result);
     }
-    @Test
-    public void BadTest()
-    {
-        int result = calculator.minus(15,2);
-        assertEquals(-1,result);
-    }
 
 }
