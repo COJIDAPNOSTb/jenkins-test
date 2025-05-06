@@ -11,5 +11,11 @@ public class CalculatorTest {
         int result = calculator.add(1,2);
         assertEquals(3,result);
     }
+    @Test
+    public void failedTest()
+    {
+        int result = calculator.add(1,2);
+        assertEquals(0,result);
+    }
 
 }
